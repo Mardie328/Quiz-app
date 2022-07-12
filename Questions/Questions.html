@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="main-container">
+
+            <div class="heading_container">
+                <div class="left">
+                    <a href="../highscores/highscores.html" id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i></a>
+                </div>
+                <h2>Time: <span id="time001"></span></h2>
+            </div>
+
+            <div class="container">
+
+                <div class="quiz_box">
+
+                    <div class="que_text">
+                        <h2>Commonly used data types DO NOT include:</h2>
+                    </div>
+
+                    <div class="option_list">
+                        <p class="option" onclick="optionSelected(this)">1. strings</p>
+                        <p class="option" onclick="optionSelected(this)">2. booleans</p>
+                        <p class="option" onclick="optionSelected(this)">3. alerts</p>
+                        <p class="option" onclick="optionSelected(this)">4. numbers</p>
+                    </div>
+
+                    <div id="footer">
+                        <div id="correctBox">Correct!</div>
+                        <div><button id="next_btn">Next question</button></div>    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+
+    <script src="Questions.js"></script>
+    <script src="../All done/script.js"></script>
+</body>
+</html>

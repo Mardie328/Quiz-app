@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+/* styling row div */
+.row{
+   padding-top: 20px;
+   padding-bottom: 30px;
+   margin:auto;
+   background-color: #218380;
+   margin-bottom: 30vh;
+}
+
+/* styling row elements */
+.row p, a{
+    font-size: 16px;
+}
+
+/* styling row sub divs */
+.left, .right {
+    float: left;
+    padding-left: 10px;
+    width: 50%;
+    align-content: center;
+    white-space: nowrap;
+    color: white;
+    padding-bottom: 15px;
+
+}
+
+.left a {
+    text-decoration: none;
+    color: white;
+}
+.right{
+    padding-right: 30px;
+    text-align: right;
+}
+
+
+.card{
+    width: 85%;
+    height: 320px;
+    border: 2px rgb(231, 217, 217) solid ;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 10px 5px rgb(192, 185, 185);
+    overflow:scroll;
+    
+}
+.card-container{
+    margin: 8vh 3vh;
+    
+}
+.btn{
+    background-color: #218380;  
+    padding: 12px;
+    border-radius: 10px;  
+    color: white;
+    border: 0 #218380;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+.card p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+ /* width oof scroolbar in card */        
+ ::-webkit-scrollbar {
+    width: 0px;
+}
+
